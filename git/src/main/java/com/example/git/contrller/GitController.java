@@ -28,6 +28,6 @@ public class GitController {
 
     @RequestMapping
     public String queryGit(){
-        return "queryGit";
+        return "queryGit2";
     }
 }
