@@ -25,4 +25,9 @@ public class GitController {
     public void updateGit(){
         return;
     }
+
+    @RequestMapping
+    public String queryGit(){
+        return "queryGit";
+    }
 }
