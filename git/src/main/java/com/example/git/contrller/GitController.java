@@ -20,4 +20,9 @@ public class GitController {
     public void delGit(){
         return;
     }
+
+    @RequestMapping
+    public void updateGit(){
+        return;
+    }
 }
