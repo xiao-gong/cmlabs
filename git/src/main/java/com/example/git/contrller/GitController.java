@@ -1,7 +1,6 @@
 package com.example.git.contrller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * todo:测试 git
@@ -11,22 +10,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/git")
 public class GitController {
 
-    @RequestMapping("/getGit")
+    @GetMapping("/getGit")
     public String getGit(){
         return "git";
     }
 
-    @RequestMapping
+    @DeleteMapping("/delGit")
     public void delGit(){
         return;
     }
 
-    @RequestMapping
+    @PutMapping("/updateGit")
     public void updateGit(){
         return;
     }
 
-    @RequestMapping
+    @GetMapping("/queryGit")
     public String queryGit(){
         return "queryGit2";
     }
